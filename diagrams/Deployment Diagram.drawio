@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.4.0">
+  <diagram name="Page-1" id="bvzWrZHMs93uino-Jo-U">
+    <mxGraphModel dx="1103" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hj7ij1HAOpsmm-PUfZAv-1" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="&amp;lt;&amp;lt;Node&amp;gt;&amp;gt;&lt;div&gt;&lt;div&gt;User Device&lt;/div&gt;&lt;div&gt;Software: Python&lt;/div&gt;&lt;div&gt;Application: Spendly&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="340" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Hj7ij1HAOpsmm-PUfZAv-3" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="&lt;div&gt;&amp;lt;&amp;lt;Node&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;Currency Exchange API&lt;/div&gt;&lt;div&gt;(External Web Service)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="40" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Hj7ij1HAOpsmm-PUfZAv-5" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="&lt;div&gt;&amp;lt;&amp;lt;Node&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;Firebase Firestore&lt;/div&gt;&lt;div&gt;Cloud Database&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="640" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Hj7ij1HAOpsmm-PUfZAv-8" edge="1" parent="1" source="Hj7ij1HAOpsmm-PUfZAv-1" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=160;exitDy=55;exitPerimeter=0;entryX=0;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" target="Hj7ij1HAOpsmm-PUfZAv-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="150" as="sourcePoint" />
+            <mxPoint x="260" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hj7ij1HAOpsmm-PUfZAv-9" edge="1" parent="1" source="Hj7ij1HAOpsmm-PUfZAv-3" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=160;exitDy=55;exitPerimeter=0;entryX=0;entryY=0.611;entryDx=0;entryDy=0;entryPerimeter=0;" target="Hj7ij1HAOpsmm-PUfZAv-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="301" as="sourcePoint" />
+            <mxPoint x="670" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hj7ij1HAOpsmm-PUfZAv-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTTPS" vertex="1">
+          <mxGeometry height="30" width="60" x="540" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Hj7ij1HAOpsmm-PUfZAv-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTTPS" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
